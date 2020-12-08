@@ -2,6 +2,9 @@
 package lesson9;
 
 public class Student {
+    public static int c = 5;
+    public int z = this.c;
+    
     
 }
 

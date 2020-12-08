@@ -6,7 +6,7 @@ public class hw4 {
     
 }
 
-class Student {
+class Student1 {
   
   int CardNumber;  
   String Name;

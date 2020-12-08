@@ -13,16 +13,16 @@ public class car {
     
     
     String color;
-    int a = 10;
+    public static int ab = 10;
     String engine;
-    static int count;
+    public static int count;
     
    /* public static void ChangeA(int b) {
         car c = new car("black", "v8");
         c.a = b;
     }*/
     
-    car(String color, String engine) {
+    public car(String color, String engine) {
        // int x = 5; // локальная переменная. У локальных переменных дефолтных значений не бывает.
         // int y = x+10; //  локальная переменная
         this.count++;
